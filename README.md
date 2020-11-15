@@ -147,7 +147,7 @@ The input data-Object has as properties: `vsm`, `state`, `styles`, `options`:
     `vsm.conns` and the remaining connectors' new optimal stacking-order
     is also applied.
   - `riState`: (0/1/2): the state of the _remove-icon_ corresponding to
-    the `connHL` (if a conn-hl is in fact shown):
+    the `connHL` (if a connector-highlight is in fact shown):
     0=normal, 1=mouse-hovered, 2=mouse-pressed.
   - `textCursor`: (term-Nr): to draw a (hidden) text cursor in the Edit-term
     at this position (if an Edit-term is actually present there).
@@ -307,7 +307,7 @@ The output data-Object has as properties: `svgs`, `sensors`:
       a rectangle that covers the column of cells above the endTerm
       (where no connectors can be added yet).
       This sensor is only present if the endTerm is drawn.
-    - `'ri'` (remove-icon, maximum one):  
+    - `'ri'` (remove-icon; maximum one):  
       a rounded rectangle that corresponds to the remove-icon's hover-area.
       This sensor is only present if a connector-highlight is drawn.
     - `'termPop'` (a term-with-shown-popup's 'halo' area; maximum two):  
