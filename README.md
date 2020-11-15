@@ -49,8 +49,9 @@ to a version 2, with a design like this:
   **`vsm-to-svg`**.
 - This refactoring creates *simplified &amp; shared code* for drawing
   vsm-sentences:  
-  ◦ _simpler_ for display and user-customization of a vsm-box in a webpage, and  
-  ◦ _shared_ between the vsm-box, and the code generating .svg-file output –
+  - **simpler** for display and user-customization of a vsm-box in a webpage,
+    and
+  - **shared** between the vsm-box, and the code generating .svg-file output –
     which is currently in the vsm-box [demo](https://vsm.github.io/demo).
 - This upgrade will enable:
   - **Multi-line vsm-sentences** would become feasible to implement,
